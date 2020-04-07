@@ -86,7 +86,7 @@ below.
 * `lineBreak` - set to `false` to disable line wrapping all together
 * `width` - the width that text should be wrapped to (by default, the page width minus the left and right margin)
 * `height` - the maximum height that text should be clipped to
-* `ellipsis` - the character to display at the end of the text when it is too long. Set to `true` to use the default character.
+* `ellipsis` - the character to display at the end of the text when it is too long. Set to `true` to use the default character or provide an object with `{location: 'middle', character: '…'}` to place the ellipsis at the `start`, `middle` or `end` of the text.
 * `columns` - the number of columns to flow the text into
 * `columnGap` - the amount of space between each column (1/4 inch by default)
 * `indent` - the amount in PDF points (72 per inch) to indent each paragraph of text
